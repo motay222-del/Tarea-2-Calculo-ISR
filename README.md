@@ -31,24 +31,6 @@ Programa desarrollado en C++ que solicita el salario mensual sujeto a ISR de un 
 - Salario mensual luego de descontar el ISR.
 - Mensaje de exento cuando el descuento mensual es RD$0.00.
 
-## 6. Capturas de pantalla del programa en ejecución
-
-### Escenario 1: salario exento (RD$30,000 mensuales)
-
-![Salario exento](imagenes/escenario1.png)
-
-### Escenario 2: aplicación del tramo del 15 % (RD$45,000 mensuales)
-
-![Tramo 15 por ciento](imagenes/escenario2.png)
-
-### Escenario 3: aplicación del tramo del 20 % (RD$60,000 mensuales)
-
-![Tramo 20 por ciento](imagenes/escenario3.png)
-
-### Escenario 4: aplicación del tramo del 25 % (RD$80,000 mensuales)
-
-![Tramo 25 por ciento](imagenes/escenario4.png)
-
 ## 7. Descripción de las estructuras utilizadas y su función
 
 Se utilizó la estructura condicional `if / else if / else` para identificar en cuál tramo de la escala anual se encuentra el ingreso del empleado y aplicar la fórmula correspondiente.
